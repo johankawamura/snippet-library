@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
 });
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/template-vue/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/snippet-library/" : "/",
   css: {
     loaderOptions: {
       sass: {
