@@ -3,7 +3,8 @@
     <NavigationBarComponent :activeIndex="2"></NavigationBarComponent>
     <div>
       <div class="content">
-        <h2>Components!</h2>
+        <h1>Components!</h1>
+        coming soon...
       </div>
     </div>
   </div>
@@ -23,6 +24,7 @@ export default {
     height: calc(100vh - 140px);
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
